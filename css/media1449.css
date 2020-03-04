@@ -1,0 +1,109 @@
+@media screen and (min-width: 1000px) and (max-width: 1449px) {
+  nav {
+    grid-template-columns: 35% 1fr;
+  }
+
+  .nav-list > li {
+    margin-right: 15px;
+  }
+
+  .augument > div {
+    margin-left: 20px;
+  }
+
+  .copy{
+    display: none;
+  }
+
+  .footer-stick{
+    display: none;
+  }
+
+  .augument {
+    grid-column-gap: 20px;
+  }
+
+  .augument > img {
+    width: 491px;
+    height: 639px;
+    justify-self: center;
+  }
+
+  .education {
+    grid-column-gap: 20px;
+  }
+
+  .education > img {
+    width: 442px;
+    height: 443px;
+  }
+
+  .data-science > img {
+    width: 393px;
+    height: 520px;
+  }
+
+  .data-science {
+    grid-column-gap: 20px;
+  }
+
+  .data-science > div {
+    margin-left: 20px;
+  }
+
+  .exclusive {
+    height: 2700px;
+  }
+
+  .in-app > img {
+    width: 377px;
+    height: 695px;
+    justify-self: start;
+  }
+
+  .in-app {
+    grid-template-columns: 60% 1fr;
+  }
+
+  .in-app > div {
+    justify-self: center;
+  }
+
+  .subscribe-stick {
+    width: 943px;
+    left: calc(50% - 943px / 2);
+  }
+
+  .social > img {
+    width: 100px;
+    height: 30px;
+  }
+
+  .see-more {
+    margin-left: 30px;
+  }
+
+  .social2 > img {
+    margin-right: 30px;
+  }
+
+  footer > :nth-child(1) {
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 25px;
+    padding-left: 70px;
+  }
+
+  footer {
+    height: 456px;
+  }
+
+  .footer-stick {
+    width: 871px;
+    left: calc(50% - 871px / 2);
+    margin-top: 50px;
+  }
+
+  .review{
+    display: none;
+  }
+}
